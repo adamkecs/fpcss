@@ -10,3 +10,19 @@
     content: "";
     padding-right: 0;
 }
+
+.postblock-own .postmain .postrender .postinner > .postcontent {
+border-right: 6px solid #4fa052;
+}
+
+body .ql-editor {
+  overflow-wrap: break-word;
+  word-break: normal;
+}
+.postcontent {
+  min-width: 100px;
+}
+
+video{
+	white-space: initial;
+}
