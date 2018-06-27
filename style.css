@@ -1,1 +1,12 @@
-@import url('https://pgsil.github.io/awfullydark2/optionals/blkSplr.css');
+.ql-container.ql-snow .ql-editor blockquote {
+    border: 1px solid #2c7dbd;
+    background-color: rgba(44,125,189,0.2);
+    width: fit-content;
+    padding-right: 16px;
+    line-height: 1.5em;
+    padding: 16px;
+}
+.ql-container.ql-snow .ql-editor blockquote:before {
+    content: "";
+    padding-right: 0;
+}
