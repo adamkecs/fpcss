@@ -1,18 +1,8 @@
-.ql-container.ql-snow .ql-editor blockquote {
-    border: 1px solid #2c7dbd;
-    background-color: rgba(44,125,189,0.2);
-    width: fit-content;
-    padding-right: 16px;
-    line-height: 1.5em;
-    padding: 16px;
-}
-.ql-container.ql-snow .ql-editor blockquote:before {
-    content: "";
-    padding-right: 0;
-}
+/* Green bar at own posts */
 .postblock-own .postmain .postrender .postinner > .postcontent {
 border-right: 6px solid #4fa052;
 }
+/* Firefox wordwrap fix */
 body .ql-editor {
   overflow-wrap: break-word;
   word-break: normal;
@@ -20,6 +10,13 @@ body .ql-editor {
 .postcontent {
   min-width: 100px;
 }
+/* Firefox video controls fix */
 video{
 	white-space: initial;
+}
+/* Fixed >quotes */
+.ql-container.ql-snow .ql-editor blockquote {
+    border-left: 2px solid #3598e6; background-color: #d5e5f2; line-height: 1.5em; padding: 5px;
+}
+.ql-container.ql-snow .ql-editor blockquote:before {content: ""; padding-right: 0;
 }
