@@ -16,7 +16,7 @@ video{
 }
 /* Fixed >quotes */
 .ql-container.ql-snow .ql-editor blockquote {
-    border: 2px solid #3598e6; background-color: #d5e5f2; line-height: 1.5em; padding: 5px;
+    border-left: 2px solid #3598e6; background-color: #d5e5f2; line-height: 1.5em; padding: 5px;
 }
 .ql-container.ql-snow .ql-editor blockquote:before {content: ""; padding-right: 0;
 }
