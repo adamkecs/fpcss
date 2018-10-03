@@ -20,3 +20,7 @@ video{
 }
 .ql-container.ql-snow .ql-editor blockquote:before {content: ""; padding-right: 0;
 }
+/* Custom background */
+html {
+	background: url('https://i.imgur.com/rA8zZU5.png') #bbb !important;
+}
